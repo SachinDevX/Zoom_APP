@@ -22,7 +22,12 @@ class MyApp extends StatelessWidget {
         '/login': (context) => const LoginScreen(),
         '/home': (context) => const HomeScreen(),
       },
-      home: const LoginScreen(),
+      home: StreamBuilder(
+        stream: AuthMethods().authChange,
+        builder: (context, snapshot) {
+          if (snapshot.)
+        }
+      ),
     );
   }
 }
