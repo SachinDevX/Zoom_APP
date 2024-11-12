@@ -27,10 +27,3 @@ class MyApp extends StatelessWidget {
   }
 }
 
-void main2(){
-
-}
-
-void main3(){
-
-}
